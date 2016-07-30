@@ -1,0 +1,30 @@
+// search image by baidu zhangjiangdong 2016-07-30
+
+{
+  "name": "zhjd",
+  "description": "search image by baidu",
+  "version": "0.1",
+
+  "manifest_version": 2,
+  "icons": {
+    "16": "sign.png",
+    "48": "sign.png",
+    "128": "sign.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://*/*"
+  ],
+
+  "web_accessible_resources": [
+    "yank.js",
+    "hook.js"
+  ]
+}
